@@ -32,7 +32,7 @@ public class MainApp {
         userService.add(user1);
         userService.add(user2);
 
-        List<User> users = userService.listUsers();
+        List<User> users = userService.getListUsers();
         for (User user : users) {
             System.out.println("Id = " + user.getId());
             System.out.println("First Name = " + user.getFirstName());
